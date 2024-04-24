@@ -1,6 +1,21 @@
 # Heart Disease, Shmeart Disease - Predicting Heart Disease Using Patient Records and Vitals
 Aaron Coppeta, Tyler Merrill
 
-The database being investigated in this project is retrieved from UC Irvine Machine Learning Repository and describes patients data and heart disease condition for 303 patients. This data is gathered from patients in Cleveland, Switzerland, Hungary, and VA Long Beach; however, we will focus on the Switzerland data in this project. The goal of the model will be to predict the presence of heart disease in patients based on 5 key parameters. The parameters being investigated are age, resting blood pressure, resting ECG, maximum heart rate, and serum cholesterol. We will also experiment with multiple network structures to test for the greatest success rate achievable.
+The database being investigated in this project is retrieved from Kaggle and includes 70,000 patients' data. This data is derived from medical examinations by medical professionals.
 
-Database: https://archive.ics.uci.edu/dataset/45/heart+disease
+Features:
+
+Age | Objective Feature | age | int (days)
+Height | Objective Feature | height | int (cm) |
+Weight | Objective Feature | weight | float (kg) |
+Gender | Objective Feature | gender | categorical code |
+Systolic blood pressure | Examination Feature | ap_hi | int |
+Diastolic blood pressure | Examination Feature | ap_lo | int |
+Cholesterol | Examination Feature | cholesterol | 1: normal, 2: above normal, 3: well above normal |
+Glucose | Examination Feature | gluc | 1: normal, 2: above normal, 3: well above normal |
+Smoking | Subjective Feature | smoke | binary |
+Alcohol intake | Subjective Feature | alco | binary |
+Physical activity | Subjective Feature | active | binary |
+Presence or absence of cardiovascular disease | Target Variable | cardio | binary |
+
+Database: https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset?resource=download
